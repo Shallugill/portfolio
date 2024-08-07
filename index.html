@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Developer Portfolio</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">WebDev Portfolio</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#projects">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Header -->
+    <header class="header text-center text-white d-flex align-items-center justify-content-center">
+        <div>
+            <h1 class="display-4">Hello, I'm a Web Developer</h1>
+            <p class="lead">Creating engaging and innovative web experiences</p>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="container my-5">
+        <h2>About Me</h2>
+        <p>I am a web developer with a passion for crafting intuitive and dynamic user experiences. My journey into web development began with a curiosity for how websites function, leading me to pursue formal education in computer science. With skills in both front-end and back-end development, I specialize in creating responsive, user-friendly websites using HTML, CSS, JavaScript, and various frameworks. I thrive on problem-solving and constantly seek to learn and adapt to new technologies.</p>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="container my-5">
+        <h2>My Projects</h2>
+        <div class="row">
+            <!-- Add project details here -->
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <img src="C:\Users\shall\OneDrive\Desktop\Final Exam Web Design\image.jpeg" class="card-img-top" alt="Project 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Project Title 1</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. In animi non ipsam? Dolorem deserunt assumenda eligendi perspiciatis sed. A hic quibusdam consequuntur, voluptatibus magnam cumque adipisci id sequi laborum aspernatur..</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Repeat for more projects -->
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="container my-5">
+        <h2>Contact Me</h2>
+        <form>
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" class="form-control" id="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" class="form-control" id="email" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Message</label>
+                <textarea class="form-control" id="message" rows="3" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer class="text-center py-4 bg-dark text-white">
+        <p>&copy; 2024 WebDev Portfolio. All rights reserved.</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
